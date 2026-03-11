@@ -1,0 +1,28 @@
+site_name: FL0X Wiki
+site_description: Official FL0X project documentation
+site_url: https://fl0x.github.io/
+
+nav:
+  - Home: index.md
+  - Proposal: proposal.md
+  - Bounties:
+    - Active Bounties: bounties.md
+    - Paid Bounties: paid-bounties.md
+  - How to Add FL0X Token: add-fl0x-token.md
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
