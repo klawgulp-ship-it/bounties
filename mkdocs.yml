@@ -1,0 +1,20 @@
+site_name: FL0X Wiki
+site_description: Official documentation for the FL0X project
+site_author: FL0X Community
+
+nav:
+  - Home: index.md
+  - Proposal: proposal.md
+  - Bounties:
+    - Active Bounties: bounties/active.md
+    - Paid Bounties: bounties/paid.md
+  - How to Add FL0X Token: add-fl0x-token.md
+
+theme:
+  name: material
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - tables
