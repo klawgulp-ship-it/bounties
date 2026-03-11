@@ -1,0 +1,18 @@
+site_name: FL0X Wiki
+site_description: Documentation for the FL0X project
+site_url: https://fl0x.github.io/
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - Proposal: proposal.md
+  - Active Bounties: bounties/active.md
+  - Paid Bounties: bounties/paid.md
+  - How to Add FL0X Token: fl0x-token.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
